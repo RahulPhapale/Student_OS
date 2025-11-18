@@ -1,11 +1,13 @@
 import React from 'react'
-import LoginPage from './app/login/page'
+// import LoginPage from './app/login/page'
+// import RegisterPage from './app/register/page'
 
 
 const App = () => {
   return (
     <div>
-      <LoginPage/>
+      {/* <LoginPage/> */}
+      {/* <RegisterPage/> */}
     </div>
   )
 }

@@ -11,6 +11,7 @@ from threading import Thread, Event
 
 origins = [
     "http://localhost:3000",  # React frontend
+    "http://localhost:5173",  # React frontend
 ]
 
 app = FastAPI(root_path="/api")
