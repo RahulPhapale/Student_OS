@@ -5,6 +5,8 @@ import './index.css'
 import LoginPage from './app/login/page'
 import RegisterPage from './app/signup/page'
 import HomePage from './app/home/page'
+import Whiteboard from './app/whiteboard/page'
+import NotesPage from './app/notes/page'
 import { Toaster } from 'react-hot-toast'
 
 
@@ -23,6 +25,8 @@ createRoot(document.getElementById("root")).render(
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/home" element={<HomePage />} />
+        <Route path="/whiteboard" element={<Whiteboard/>} />
+        <Route path="/notes" element={<NotesPage/>} />
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     </BrowserRouter>
