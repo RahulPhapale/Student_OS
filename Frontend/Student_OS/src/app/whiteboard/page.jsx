@@ -15,6 +15,7 @@ export default function App() {
         <Button variant="outline">Save JSON</Button>
         <Button variant="outline">Load JSON</Button>
         <Button variant="outline">Export PNG</Button>
+        <h1 className='ml-auto text-2xl font-extrabold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent'>Whiteboard</h1>
         <Button variant="outline" className="ml-auto px-3 py-1 ">
           Attach to Note
         </Button>

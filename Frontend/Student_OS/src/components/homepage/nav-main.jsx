@@ -83,7 +83,7 @@ const menuItems = [
   { title: "Notes", icon: FileEdit, url: "/notes" },
   { title: "Materials", icon: BookOpen, url: "#" },
   { title: "Assistant", icon: Bot, url: "#" },
-  { title: "Tasks", icon: CheckSquare, url: "#" },
+  { title: "Tasks", icon: CheckSquare, url: "tasks" },
   { title: "Calendar", icon: CalendarDays, url: "#" },
   { title: "Whiteboard", icon: PencilRuler, url: "/whiteboard" },
   { title: "Notifications", icon: Bell, url: "#" },
